@@ -1,0 +1,46 @@
+@font-face {
+  font-family: "Outfit-bold";
+  src: url("./assets/font/Outfit-Bold.ttf");
+}
+@font-face {
+  font-family: "Outfit-regular";
+  src: url("./assets/font/Outfit-Regular.ttf");
+}
+.app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #d5e1ef;
+}
+
+.container {
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 250px;
+  gap: 20px;
+}
+.container .App-logo {
+  width: 100%;
+}
+.bottom-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 15px;
+  font-size: 13px;
+  text-align: center;
+  color: #68778d;
+  font-family: Outfit-regular, sans-serif;
+}
+.bottom-item h1 {
+  color: #1f314f;
+  font-size: 18px;
+  font-family: Outfit-bold, sans-serif;
+}
